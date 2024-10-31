@@ -117,8 +117,3 @@
 ## **11. Tổng Kết**  
 - **Partitioning Methods** cung cấp các công cụ mạnh mẽ và hiệu quả để phân tích dữ liệu, với mỗi thuật toán có ưu và nhược điểm riêng.
 - Lựa chọn thuật toán cần dựa trên đặc điểm dữ liệu và yêu cầu cụ thể của bài toán.
-
-
----
-
-Với bố cục này, bạn đã có một phần **thuyết trình logic, rõ ràng và đầy đủ**. Cách phân bổ này đảm bảo các khái niệm quan trọng được trình bày theo từng bước hợp lý, dễ hiểu và dễ triển khai trong quá trình giảng dạy.
