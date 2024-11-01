@@ -9,7 +9,8 @@ from mpl_toolkits.mplot3d import Axes3D
 import seaborn as sns
 
 
-df = pd.read_csv(r'D:\Visualizing-Partitioning-Methods\clcs_corr.csv')
+# df = pd.read_csv(r'D:\Visualizing-Partitioning-Methods\clcs_corr.csv')
+df = pd.read_csv('clcs_corr.csv')
 
 # Sidebar options for user inputs
 st.sidebar.header("Clustering Options")
