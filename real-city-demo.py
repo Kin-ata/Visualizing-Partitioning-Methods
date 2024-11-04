@@ -15,11 +15,11 @@ df = pd.read_csv('clcs_corr.csv')
 # Sidebar options for user inputs
 st.sidebar.header("Clustering Options")
 features = st.sidebar.multiselect("Select features for clustering", options=df.columns[1:])
-method = st.sidebar.selectbox("Select clustering method", ("KMeans"))
+method = st.sidebar.selectbox("Select clustering method", ("KMeans",''))
 
 # Check if features are selected for clustering
 if len(features) < 2:
-    st.warning("Please select at least two features for clustering.")
+    st.warning("Please select three features for clustering.")
 else:
     # Data preprocessing
     X = df[features]
@@ -45,8 +45,8 @@ else:
     n_clusters = st.sidebar.slider("Number of clusters", 2, 10, 3)
     
     # Apply clustering with chosen method and plot 3D clusters if features are ≥ 3
-    if method == "KMeans":
-        model = KMeans(n_clusters=n_clusters, random_state=0)
+    # if method == "KMeans":
+    model = KMeans(n_clusters=n_clusters, random_state=0)
     # elif method == "KMedoids":
     #     model = KMedoids(n_clusters=n_clusters, random_state=0)
 
